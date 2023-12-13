@@ -10,5 +10,3 @@ ON e.country = c.country
 WHERE e.country like 'Cz%' AND e.year > 2005 AND e.YEAR < 2019
 ORDER BY e.`year`;
 
-SELECT *
-FROM t_alena_skrobakova_project_sql_secondary_final taspssf 
